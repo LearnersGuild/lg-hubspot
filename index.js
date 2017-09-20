@@ -1,12 +1,12 @@
 require('dotenv').load()
-const Hubspot = require('hubspot')
+const LGHubspot = require('./LGHubspot')
 const userProperties = require('./userProperties')
 
 const connectToHubspot = environmentVariable => {
   const apiKey = process.env[environmentVariable]
   if (!apiKey)
     throw new Error(`${environmentVariable} must be set`)
-  return new Hubspot({ apiKey })
+  return new LGHubspot({ apiKey })
 }
 
 const productionHubspot = connectToHubspot('PRODUCTION_HUBSPOT_API_KEY')
