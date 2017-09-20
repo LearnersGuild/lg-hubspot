@@ -1,0 +1,26 @@
+{
+  "name": "lg-hubspot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnersGuild/lg-hubspot.git"
+  },
+  "keywords": [
+    "hubspot"
+  ],
+  "author": "Jared Grippe <jared@learnersguild.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LearnersGuild/lg-hubspot/issues"
+  },
+  "homepage": "https://github.com/LearnersGuild/lg-hubspot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "hubspot": "^1.0.2"
+  }
+}
